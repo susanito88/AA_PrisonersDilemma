@@ -1,1 +1,2 @@
-# AA_PrisonersDilemma
+#Strategy Description
+This strategy adapts based on the opponent's behavior. In the early rounds, it favors cooperation if the opponent cooperates more often than defects. As the game progresses, it adjusts based on the history of defections and cooperations, retaliating with defections when the opponent defects frequently. If the number of defections and cooperations is equal, the strategy cooperates if the last move was a defection, otherwise, it defects.
